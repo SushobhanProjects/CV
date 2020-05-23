@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+aside {
+  padding: 40px;
+}
+
+.freespace {
+  padding: 10px;
+}
+
+.spacing {
+  padding: 42px;
+}
+
+body {
+  font-family: Cambria;
+}
+
+header {
+  background-color: #666;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 50%;
+  height: 1600px;
+  /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 30px;
+  width: 50%;
+  background-color: #f1f1f1;
+  height: 1600px;
+  /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+table,
+td {
+  border: 1px solid #333;
+}
+
+thead,
+tfoot {
+  background-color: #333;
+  color: #fff;
+}
+
+.lastspacing {
+  padding: 30px;
+}
+
+a.five:link {
+  color:#ff0000;text-decoration:none;
+}
+a.five:visited {color:#0000ff;text-decoration:none;}
+a.five:hover {text-decoration:underline;}
